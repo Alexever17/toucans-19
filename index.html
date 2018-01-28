@@ -16,7 +16,7 @@
   <title>TickyBot</title>
 </head>
 
-<body>
+<body onresize="resizeEvent()">
   <header>
     <nav>
       <ul>
@@ -49,14 +49,14 @@
                  </a>
       </div>
       <div class="home-Robot reveal-item two">
-        <img src="assets/images/tickybot-robot.png">
+        <img id="robotHead" src="assets/images/head.png">
       </div>
     </div>
   </section>
 
   <section id="about">
     <div class="container container--flex">
-      <h3 class="page__title reveal-item three">What Is<strong>Ticky</strong>Bot</h3>
+      <h3 class="page__title reveal-item three">What Is <strong>Ticky</strong>Bot</h3>
       <div class="page-half reveal-item four">
         <p><strong>Ticky</strong>Bot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p>
       </div>
